@@ -1,0 +1,22 @@
+div{
+    color: mediumvioletred;
+    font-size: 17px;
+    background-color: lavenderblush;
+    text-align: center;
+    margin: 5px;
+}
+
+div.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 5px;
+    background-color: mistyrose;
+}
+
+div.gallery> img{
+    width: 250px;
+    height: 250px;
+    padding: 5px;
+    image-resolution: 300 x 300;
+}
